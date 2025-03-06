@@ -1,6 +1,8 @@
-# Basic landing page
-Landing Page with HTML, CSS and JavaScript. 
-![127 0 0 1_5500_index html](./images/Maicon-Lisboa-MJ-Design-Estratégia-LP.png.png)
+# Meu Portfólio
+
+Bem-vindo ao meu portfólio! Aqui estão meus projetos e informações sobre mim.
+
+![Logo MJ Design & Estratégia](./images/Maicon-Lisboa-MJ-Design-Estratégia-LP.png)
 
 ## Seções
 - [Experiências](#experiences)
