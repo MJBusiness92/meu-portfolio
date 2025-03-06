@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Gustavo Neitzke | GN</title>
+    <title>Maicon Lisboa | MJ Design & Estratégia</title>
 </head>
 <body>
     <header>
         <div class="box-img-header">
-            <img class="img-logo" src="./images/logo.png" alt="">
+            <img class="img-logo" src="./images/mjdesigneestrategia.png" alt="">
         </div>
         <nav>
             <a href="#experiences" class="nav-links">Experiências</a>
@@ -19,20 +19,20 @@
             <a href="#contact" class="nav-links">Contato</a>
         </nav>
         <div class="box-btn-actions">
-            <button class="btn-action">Cadastrar</button>
-            <button class="btn-action">Entrar</button>
+            <button class="btn-action">Agendar consultoria</button>
+            <!-- <button class="btn-action">Entrar</button> -->
         </div>
     </header>
 
     <main>
         <section class="first-section">
             <div>
-                <h1>Olá! Eu sou o <br> <strong>Gustavo Neitzke</strong></h1>
-                <p>Tenho 20 anos, sou dev <strong>Full Stack</strong> em uma multinacional americada, <strong>Youtuber</strong> e <strong>Universitário.</strong></p>
+                <h1>Olá! Eu sou o <br> <strong>Maicon Lisboa</strong></h1>
+                <p>Tenho 32 anos, sou dev <strong>Web Desiner | Estrategista de Conteúdo</strong>. Especialista na criação de artigos para <strong>Blog post</strong>, <strong>Mídias Sociais</strong>, <strong>Web Design</strong>, <strong>SEO</strong> e <strong>Copywriter</strong>.</p>
                 <a href="#contact" class="btn-action link-action">Saber mais</a>
             </div>
             <div class="box-img-main">
-                <img class="img-profile" src="./images/perfil.png" alt="Gustavo Neitzke - Perfil">
+                <img class="img-profile" src="./images/eu.png" alt="Maicon Feijó - Perfil">
             </div>
         </section>
         
@@ -42,26 +42,64 @@
                 <p>HTML</p>
                 <p>CSS</p>
                 <p>JavaScript</p>
-                <p>Vue.js</p>
-                <p>PHP</p>
-                <p>Laravel</p>
-                <p>MySQL</p>
+                <p>Tailwind CSS</p>
+                <p>Typescript</p>
+                <p>Nextjs</p>
+                <p>Python</p>
+                <p>Inteligência Artificial</p>
+                <p>Figma</p>
             </div>
         </section>
 
         <section id="who-am-i" class="third-section">
             <h2 class="title">Quem sou eu ?</h2>
             <div>
-                <img class="img-who-am-i" src="./images/gustavo.jpeg" alt="Gustavo Neitzke - Foto">
-                <p>Meu nome é <strong>Gustavo Neitzke</strong>, estou cursando <strong>Análise e Desenvolvimento de Sistemas</strong> na Universidade de Passo Fundo, atualmente tenho um <strong>canal no Youtube</strong> onde ensino programação e falo sobre tecnologia. Trabalho em uma multinacional americana, chamada Builderall, como <strong>Full Stack developer.</strong></p>
+                <img class="img-who-am-i" src="./images/minha-foto.jpg" alt="Maicon Feijó - Foto">
+                <p>Meu nome é <strong>Maicon Lisboa</strong>, sou fundador da <strong>MJ Design & Estratégia</strong>. Estamos ao seu lado desde a primeira ideia ao último clique. Criamos designs que contam a história da sua marca, criativos que engajam nas redes sociais e soluções digitais que transformam, como sites e softwares de gestão. Aqui, sua autoridade é construída passo a passo, com um acompanhamento que não para até você se destacar.</p>
             </div>
         </section>
 
-        <section id="my-projects" class="fourth-section">
+        <!-- <section id="my-projects" class="fourth-section">
             <h2 class="title">Meus projetos</h2>
             <p id="loading">Carregando...</p>
             <div id="my-projects-list"></div>
-        </section>
+        </section> -->
+
+        <h2>Projetos Recentes</h2>
+
+        <div class="carrossel">
+            <div class="card">
+                <img src="./images/onboarding.png" alt="Imagem 1">
+                <h3>Software de Agendamento</h3>
+                <p>Nextjs, Typescript, React e Appwrite</p>
+            </div>
+            <div class="card">
+                <img src="./images/Dashboard.png" alt="Imagem 2">
+                <h3>Dashboard de Agendamento</h3>
+                <p>Nextjs, Typescript, React e Appwrite</p>
+            </div>
+            <div class="card">
+                <img src="./images/SaaS Nutriçao.png" alt="Imagem 3">
+                <h3>SaaS Nutrição de Acompanhamento do Paciente</h3>
+                <p>Nextjs, Typescript, React, Stripe, MongoDB e Appwrite</p>
+            </div>
+            <div class="card">
+                <img src="./images/prototipo-1 (1).png" alt="Imagem 4">
+                <h3>Vivência Plena - Landing Page</h3>
+                <p>HTML, CSS e JavaScript</p>
+            </div>
+            <div class="card">
+                <img src="./images/prototipo-2.png" alt="Imagem 5">
+                <h3>Página de Lançamento - Landing Page</h3>
+                <p>HTML, CSS e JavaScript</p>
+            </div>
+            <div class="card">
+                <img src="./images/prototipo-3 (1).png" alt="Imagem 6">
+                <h3>Psicóloga - Landing Page</h3>
+                <p>HTML, Tailwind CSS e JavaScript</p>
+            </div>
+        </div>
+
     </main>
 
     <footer id="contact">
@@ -92,6 +130,9 @@
                     <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
                 </svg>
             </a>
+        </div>
+        <div class="copyright">
+            <div>@Copyright 2025 | <span><a href="https://bit.ly/41sJoWv" target="_blank">MJ Design & Estratégia</a></span></div>
         </div>
     </footer>
 </body>

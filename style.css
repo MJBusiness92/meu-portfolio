@@ -2,10 +2,10 @@
 
 :root{
     --white: #fff;
-    --dark1: #34344e;
-    --dark2: #3a415a;
-    --dark3: #566981;
-    --dark4: #89a7b1;
+    --dark1: #08081A;
+    --dark2: #2D5CBF;
+    /* --dark3: #2A9FE6; */
+    --dark4: #0F1E3F;
     --dark5: #cbdad5;
     --cyan1: #70e3ea;
 }
@@ -20,7 +20,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--dark2);
+    background: var(--dark1);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -45,7 +45,7 @@ header{
     gap: 1rem;
     flex-wrap: wrap;
     padding: .8rem;
-    background-color: #2f2f46;
+    background-color: #08081A;
     min-height: 50px;
 }
 
@@ -55,7 +55,7 @@ header{
 
 .img-logo{
     height: 100%;
-    max-height: 60px;
+    max-height: 90px;
 }
 
 nav{
@@ -72,7 +72,7 @@ nav{
 }
 
 .nav-links:hover{
-    color: var(--dark4);
+    color: var(--cyan1);
     text-decoration: underline;
     transition: .4s;
 }
@@ -240,6 +240,53 @@ strong{
     box-shadow: 1px 1px 1px 1px var(--cyan1);
 }
 
+h2 {
+    justify-content: center;    /* Centraliza horizontalmente */
+    align-items: center;        /* Centraliza verticalmente */
+    height: 10vh;          /* Altura total da tela para centralização vertical (opcional) */
+    font-weight: bold;
+    font-size: 32px;          /* Coloca o texto em negrito */
+    color: #cbdad5;               /* Cor branca para o texto da div */
+    text-align: center;
+}
+
+.carrossel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    scroll-snap-align: start;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* object-fit: cover; */
+}
+.card h3 {
+    font-size: 1.5rem;
+    margin: 15px;
+    color: #333;
+}
+.card p {
+    font-size: 1rem;
+    margin: 0 15px 15px;
+    color: #666;
+}
+
 footer{
     padding: 4rem;
     display: flex;
@@ -253,3 +300,37 @@ footer > div{
     gap: 2rem;
     flex-wrap: wrap;
 }
+
+.copyright {
+    display: flex;              /* Usa flexbox para centralizar o conteúdo */
+    justify-content: center;    /* Centraliza horizontalmente */
+    align-items: center;        /* Centraliza verticalmente */
+    height: 5vh;              /* Altura total da tela para centralização vertical (opcional) */
+    font-weight: bold;          /* Coloca o texto em negrito */
+    color: #fff;               /* Cor branca para o texto da div */
+    text-align: center;         /* Garante alinhamento centralizado do texto */
+}
+
+div span {
+    color: #70e3ea;            /* Cor específica para o span */
+}
+
+div span a {
+    color: #70e3ea; /* Mantém a cor do span */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+div span a:hover {
+    text-decoration: underline; /* Opcional: sublinhado ao passar o mouse */
+}
+
+
+@media (max-width: 768px) {
+    .carrossel {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .carrossel {
+        grid-template-columns: 1fr;
+    }
