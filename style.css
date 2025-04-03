@@ -324,6 +324,27 @@ div span a:hover {
     text-decoration: underline; /* Opcional: sublinhado ao passar o mouse */
 }
 
+/* Botão do Whatsapp adicionado recentemente */
+.whatsapp-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Para garantir que o ícone fique acima dos outros elementos */
+}
+
+.whatsapp-icon {
+    width: 50px; /* Tamanho do ícone */
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%; /* Forma redonda */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombras para destacar */
+    transition: transform 0.2s ease-in-out;
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.2); /* Efeito de zoom ao passar o mouse */
+}
+
 
 @media (max-width: 768px) {
     .carrossel {
