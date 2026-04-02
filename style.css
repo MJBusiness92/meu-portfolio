@@ -302,6 +302,29 @@ footer > div{
     flex-wrap: wrap;
 }
 
+.email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.email-container p {
+    margin: 0;
+    font-weight: normal;
+}
+
+.email-label {
+    font-weight: bold;
+    color: var(--white);
+}
+
+.email-link {
+    color: var(--cyan1);
+    font-weight: normal;
+}
+
 .copyright {
     display: flex;              /* Usa flexbox para centralizar o conteúdo */
     justify-content: center;    /* Centraliza horizontalmente */
