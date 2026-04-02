@@ -240,13 +240,14 @@ strong{
     box-shadow: 1px 1px 1px 1px var(--cyan1);
 }
 
+.text-white {
+    color: var(--white);
+}
+
 h2 {
-    justify-content: center;    /* Centraliza horizontalmente */
-    align-items: center;        /* Centraliza verticalmente */
-    height: 10vh;          /* Altura total da tela para centralização vertical (opcional) */
     font-weight: bold;
-    font-size: 32px;          /* Coloca o texto em negrito */
-    color: #cbdad5;               /* Cor branca para o texto da div */
+    font-size: 32px;
+    color: #cbdad5;
     text-align: center;
 }
 
