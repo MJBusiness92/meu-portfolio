@@ -288,6 +288,23 @@ h2 {
     color: #666;
 }
 
+.card-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--cyan1);
+    color: var(--dark1);
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 0 15px 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.card-btn:hover {
+    background-color: var(--dark2);
+    color: var(--white);
+}
+
 footer{
     padding: 4rem;
     display: flex;
